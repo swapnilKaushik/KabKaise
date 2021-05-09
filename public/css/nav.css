@@ -1,0 +1,104 @@
+/* ˇ̬ˬ˅ ▼ */
+.nav-link-down::after {
+    content: '▼';
+    font-size: 9px;
+}
+
+.navbar-nav li:hover > .dropDownNavDiv {
+    max-height: 200px;
+}
+
+.navbar-nav li {
+    position: relative;
+}
+.dropDownNavDiv {
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    background-color: #FFF;
+    box-shadow: 1px 1px 4px 0px #dad8d8;
+    overflow: hidden;
+    transition: .3s max-height linear;
+}
+.dropDownNavDiv li {
+    width: 130px;
+    padding: 6px 15px;
+    background-color: #fff;
+    transition: .1s all ease-in-out;
+}
+.dropDownNavDiv li:hover {
+    background-color: #16afd2;
+}
+.dropDownNavDiv li:hover a {
+    color: #fff;
+}
+.dropDownNavDiv li a {
+    color: #000;
+    text-decoration: none;
+    transition: .1s all ease-in-out;
+}
+
+
+
+
+
+footer {}
+.foot1 {
+    background-color: #17222b;
+    padding: 30px 8rem;
+}
+.footTitle {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.footDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #fff;
+}
+.dividerDash {
+    border-top: 1px dashed #fff;
+}
+.footDiv div {}
+.footDivTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}
+.footDivLinks {
+    margin-left: 12px;
+    font-size: 15px;
+}
+.footDivLinks a {
+    text-decoration: none;
+    color: #fff;
+}
+.footDivLinks:hover > a {
+    color: #16afd2;
+}
+.foot2 {
+    background-color: #232d36;
+    padding: 15px 8rem;
+    display: flex;
+    justify-content: space-between;
+    color: #747a80;
+}
+.foot2left {}
+.foot2right {
+    display: flex;
+}
+.foot2right div {
+    padding: 0 12px;
+}
+.foot2right div:hover {
+    color: #fff;
+}
